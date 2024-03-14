@@ -54,8 +54,8 @@ app.post('/smart/go', async (req, res) => {
 
   // config open ai
   const configuration = new Configuration({
-    organization: "org-df7OMj3TagBeqN9JXhzo5Y6E",
-    apiKey: "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",
+    organization: "",
+    apiKey: "",
 });
 
   try{
@@ -86,8 +86,8 @@ app.post('/smart/fine-tune/me', async (req, res) => {
 
   // config open ai
   const configuration = new Configuration({
-    organization: "org-df7OMj3TagBeqN9JXhzo5Y6E",
-    apiKey: "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",
+    organization: "",
+    apiKey: "",
 });
 
   try{
